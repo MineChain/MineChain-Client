@@ -27,8 +27,8 @@
           <includes>
             <include>**/*</include>
           </includes>
-          <repositoryName>${repository-name}</repositoryName>
-          <repositoryOwner>${repository-owner}</repositoryOwner>
+          <repositoryName>MineChain-Client</repositoryName>
+          <repositoryOwner>MineChain</repositoryOwner>
         </configuration>
       </plugin>
       <plugin>
@@ -87,9 +87,7 @@
     </repository>
   </distributionManagement>
   <properties>
-    <repository-name>MineChain-Client</repository-name>
     <github.global.server>github</github.global.server>
-    <repository-owner>MienChain</repository-owner>
   </properties>
 </project>
 

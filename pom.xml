@@ -6,14 +6,12 @@
 	<version>1.0.0-SNAPSHOT</version>
 	<name>MineChain-Client</name>
 	<properties>
-		<repository-owner>MienChain</repository-owner>
-		<repository-name>MineChain-Client</repository-name>
 		<github.global.server>github</github.global.server>
 	</properties>
 	<repositories>
 		<repository>
 			<id>base-repo</id>
-			<url>https://github.com/${repository-owner}/${repository-name}/tree/maven/</url>
+			<url>https://github.com/MineChain/MineChain-Base/tree/maven/</url>
 		</repository>
 	</repositories>
 	<dependencies>
@@ -46,8 +44,8 @@
 					<includes>
 						<include>**/*</include>
 					</includes>
-					<repositoryName>${repository-name}</repositoryName>
-					<repositoryOwner>${repository-owner}</repositoryOwner>
+					<repositoryName>MineChain-Client</repositoryName>
+					<repositoryOwner>MineChain</repositoryOwner>
 				</configuration>
 				<executions>
 					<execution>
