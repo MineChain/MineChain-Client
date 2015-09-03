@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>io.github.minechain.client</groupId>
+  <artifactId>MineChain-Client</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150903224535</lastUpdated>
+  </versioning>
+</metadata>
